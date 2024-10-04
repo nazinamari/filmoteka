@@ -29,11 +29,13 @@ module.exports = {
 	devServer: {
 		port: 1111,
 		open: true,
+		hot: true,
+		liveReload: true,
+		watchFiles: ['src/**/*.html'],
 		client: {
 			logging: 'warn', // Показувати попередження
 			overlay: true, // Вимкнути оверлей
 		},
-		hot: true,
 	},
 };
 
