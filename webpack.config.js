@@ -5,7 +5,7 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		filename: 'main.js',
-		publicPath: 'https://nazinamari.github.io/filmoteka/',
+		publicPath: process.env.NODE_ENV === 'production' ? '/filmoteka/' : '/',
 		path: path.resolve(__dirname, 'build'),
 	},
 	module: {

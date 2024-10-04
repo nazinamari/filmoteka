@@ -4,7 +4,9 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "webpack-dev-server --mode development",
-		"prod": "webpack --mode production"
+		"prod": "webpack --mode production",
+		"predeploy": "npm run prod",
+		"deploy": "gh-pages -d build" 
 	},
 	"keywords": [],
 	"author": "",
@@ -21,6 +23,7 @@
 		"style-loader": "^4.0.0",
 		"webpack": "^5.95.0",
 		"webpack-cli": "^5.1.4",
-		"webpack-dev-server": "^5.1.0"
+		"webpack-dev-server": "^5.1.0",
+		"gh-pages": "^5.0.0" 
 	}
 }
