@@ -5,6 +5,7 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		filename: 'main.js',
+		publicPath: 'https://nazinamari.github.io/filmoteka/',
 		path: path.resolve(__dirname, 'build'),
 	},
 	module: {
@@ -24,7 +25,7 @@ module.exports = {
 	infrastructureLogging: {
 		level: 'error', // Показувати тільки помилки
 	},
-	plugins: [new HtmlWebpackPlugin({template: 'src/index.html'})],
+	plugins: [new HtmlWebpackPlugin({ template: 'src/index.html' })],
 	devServer: {
 		port: 1111,
 		open: true,
