@@ -8,7 +8,7 @@ module.exports = {
 	output: {
 		filename: 'main.js',
 		path: path.resolve(__dirname, 'build'),
-		publicPath: '/filmoteka/',
+		publicPath: '/webpack/',
 	},
 	module: {
 		rules: [
