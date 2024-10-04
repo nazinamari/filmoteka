@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _module_1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module-1 */ \"./src/module-1.js\");\n/* harmony import */ var _scss_common_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/common.scss */ \"./src/scss/common.scss\");\n\n\nconsole.log(_module_1__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\nconsole.log('Hello Це indexf1');\n\n//# sourceURL=webpack://filmoteka/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _module_1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module-1 */ \"./src/module-1.js\");\n/* harmony import */ var _scss_common_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/common.scss */ \"./src/scss/common.scss\");\n\n\nconsole.log(_module_1__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\nconsole.log('Hello index');\n\n//# sourceURL=webpack://filmoteka/./src/index.js?");
 
 /***/ }),
 
