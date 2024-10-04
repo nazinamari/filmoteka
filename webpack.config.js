@@ -24,7 +24,7 @@ module.exports = {
 	infrastructureLogging: {
 		level: 'error', // Показувати тільки помилки
 	},
-	plugins: [new HtmlWebpackPlugin()],
+	plugins: [new HtmlWebpackPlugin({template: 'src/index.html'})],
 	devServer: {
 		port: 1111,
 		open: true,
