@@ -6,7 +6,7 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		filename: 'main.js',
-		publicPath: process.env.NODE_ENV === 'production' ? '/filmoteka/' : '/',
+		publicPath: '/',
 		path: path.resolve(__dirname, 'build'),
 	},
 	module: {
